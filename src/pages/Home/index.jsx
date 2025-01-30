@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './home.module.css'
+import avatar from '../Sobre/images/avatar.svg'
 
 function Home() {
     return(
@@ -15,7 +16,7 @@ function Home() {
             <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>Saiba mais</Link>
             </div>
             <figure>
-            <img className={styles.img_home} src="" alt="Imagem de Home"/>
+            <img className={styles.img_home} src={avatar} alt="Imagem de Home"/>
             </figure>
         </section>
     )
