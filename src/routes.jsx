@@ -12,6 +12,7 @@ function AppRoutes(){
                 <Routes>
                     <Route path='/' element={ <PaginaBase/> }>
                         <Route index element={<Home/>}></Route>
+                        <Route path="/Portifolio" element={<Home/>}></Route>
                         <Route path="/sobre" element={<Sobre/>}></Route>
                         <Route path="/projetos" element={<Projetos/>}></Route>
                         <Route path="/contatos" element={<Contatos/>}></Route>
